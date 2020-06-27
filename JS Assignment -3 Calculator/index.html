@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <table  cellpadding="2px">
+            <fieldset>
+                <h1>Calculator</h1>
+            </fieldset> 
+
+            <tr>
+                <th colspan="5">
+                    <input type="text" id="result" class="result" >
+                </th>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <input type="button" onclick="clearResult()" class="btnC" value="CE" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber('7')" value="7" class="btn num">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber('7')" value="8" class="btn num">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber('9')" value="9" class="btn num">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber('/')" value="/" class="btn">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="Ln()" value="ln" class="btn">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber('4')" value="4" class="btn num">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber('5')" value="5" class="btn num">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber('6')" value="6" class="btn num">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber('*')" value="x" class="btn">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="oneHalf()" value="1/x" class="btn">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber('1')" value="1" class="btn num">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber('2')" value="2" class="btn num">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber('3')" value="3" class="btn num">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber('-')" value="-" class="btn">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="squareRoot()" value="√" class="btn">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber('.')"  value="." class="btn">
+                </td>
+                <td colspan="2">
+                    <input type="button" name="" id="" onclick="getNumber('0')" value="0" class="btn num">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber('+')" value="+" class="btn">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="Square()" value="x2" class="btn">
+                </td>
+                
+             
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" name="" id="" onclick="getResult()" value="=" class="btn">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber('(')" value="(" class="btn">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="getNumber(')')" value=")" class="btn">
+                </td>
+                <td>
+                    <input type="button" name="" id="" onclick="Cube()"  value="x3" class="btn">
+                </td>
+            </tr>
+
+
+        </table>
+
+
+
+
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
