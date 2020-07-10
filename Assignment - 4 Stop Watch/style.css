@@ -1,0 +1,36 @@
+.cont{
+    margin-top: 20px;
+    background-color: rgba(255, 160, 122, 0.767) !important;
+    height: 400px;
+    text-align:center;
+    font-family:sans-serif;
+    border-radius: 50%;
+}
+.stopwatch h1{
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    width: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.label{
+    display: inline-block;
+    width: 100px;
+}
+.btn button{
+    margin-top: 30px;
+    background-color: black;
+    color: #fff;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 100px;
+}
+.btn button:hover{
+    background-color: red;
+    color: #fff;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 100px;
+    cursor: pointer;
+}
