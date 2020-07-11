@@ -31,12 +31,14 @@ function timer(){
 
 function start(){
     interval = setInterval(timer,10);
-    document.getElementById('start').disable=true;  
+    document.getElementById('start').disabled=true;  
 }
 function stop(){
     clearInterval(interval);
+    document.getElementById('start').disabled=false;
 }
 function reset(){
+    document.getElementById('start').disabled=false;
     msec = 0;
     sec = 0;
     min = 0;
